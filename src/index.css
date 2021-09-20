@@ -1,5 +1,15 @@
-@import "tailwindcss/base";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
-@import "tailwindcss/components";
+* {
+  box-sizing: border-box;
+}
 
-@import "tailwindcss/utilities";
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+
